@@ -1,11 +1,11 @@
 package com.tomikcode.customer.model;
 
+import javax.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
 
 @Data
 @Builder
@@ -13,6 +13,8 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Entity
 public class Customer {
+
+
     @Id
     @SequenceGenerator(
             name = "customer_id_sequence",
@@ -26,5 +28,6 @@ public class Customer {
     private String firstname;
     private String lastname;
     private String email;
+
 
 }

@@ -41,8 +41,8 @@ public class CustomerService {
         }
         NotificationRequest notificationRequest = NotificationRequest.builder()
                 .to_customer_id(customer.getId())
-                .to_customer_email("example.email")
-                .description("Dear user, we've saved your data to our system")
+                .to_customer_email(customer.getEmail())
+                .description("Dear "+ customer.getFirstname()+", we've saved your data to our system")
                 .sender("mister Akzhol")
                 .title("Successfully saved data")
                 .build();
@@ -50,7 +50,6 @@ public class CustomerService {
                 notificationRequest,
                 "internal.exchange",
                 "internal.notification.routing.key"
-
         );
     }
 }
