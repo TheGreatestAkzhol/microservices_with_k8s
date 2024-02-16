@@ -1,0 +1,5 @@
+com\tomikcode\clients\notification\NotificationClient.class
+com\tomikcode\clients\notification\model\NotificationRequest.class
+com\tomikcode\clients\fraud\FraudClient.class
+com\tomikcode\clients\fraud\model\FraudCheckResponse.class
+com\tomikcode\clients\notification\model\NotificationRequest$NotificationRequestBuilder.class

@@ -1,0 +1,8 @@
+com\tomikcode\notification\model\Notification$NotificationBuilder.class
+com\tomikcode\notification\model\Notification.class
+com\tomikcode\notification\repository\NotificationRepository.class
+com\tomikcode\notification\NotificationApplication.class
+com\tomikcode\notification\service\NotificationService.class
+com\tomikcode\notification\config\NotificationConfig.class
+com\tomikcode\notification\controller\NotificationController.class
+com\tomikcode\notification\rabbitmq\NotificationConsumer.class

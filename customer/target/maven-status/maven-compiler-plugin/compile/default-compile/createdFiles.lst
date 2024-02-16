@@ -1,0 +1,8 @@
+com\tomikcode\customer\CustomerApplication.class
+com\tomikcode\customer\model\CustomerRegistrationRequest.class
+com\tomikcode\customer\model\Customer$CustomerBuilder.class
+com\tomikcode\customer\config\CustomerConfig.class
+com\tomikcode\customer\service\CustomerService.class
+com\tomikcode\customer\controller\CustomerController.class
+com\tomikcode\customer\model\Customer.class
+com\tomikcode\customer\repository\CustomerRepository.class
