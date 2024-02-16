@@ -1,6 +1,0 @@
-com\tomikcode\fraud\controller\FraudController.class
-com\tomikcode\fraud\service\FraudCheckService.class
-com\tomikcode\fraud\model\FraudCheckHistory$FraudCheckHistoryBuilder.class
-com\tomikcode\fraud\FraudApplication.class
-com\tomikcode\fraud\repository\FraudCheckHistoryRepository.class
-com\tomikcode\fraud\model\FraudCheckHistory.class
