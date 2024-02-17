@@ -10,6 +10,7 @@
 > http://localhost:9411
 ## PgAdmin
 > http://localhost:5050/
+
 It's UI for working with database.
 ## Postgres
 Will be reachable and managable with pgAdmin
@@ -17,8 +18,11 @@ Will be reachable and managable with pgAdmin
 ## RabbitMQ
 Message broker that helps to talk customer service with notification service asynchronously. AMQP - advanced message queue protocol.(Message queues have their own protocols for talking)
 > http://localhost:15672/
+
 And credentials of course:
+
 > username:guest (by default)
+
 > password:guest (by default)
 
 
