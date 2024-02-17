@@ -5,16 +5,12 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
 public class Customer {
-
-
     @Id
     @SequenceGenerator(
             name = "customer_id_sequence",
@@ -28,6 +24,4 @@ public class Customer {
     private String firstname;
     private String lastname;
     private String email;
-
-
 }
