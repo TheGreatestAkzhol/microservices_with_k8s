@@ -1,4 +1,4 @@
-There we have bunch of other services, that works after we run docker-compose file:
+#There we have bunch of other services, that works after we run 'docker-compose' file:
 
 ////
 """docker compose -up -d
