@@ -10,7 +10,7 @@
 > http://localhost:9411
 ## PgAdmin
 > http://localhost:5050/
-  It's UI for working with database.
+It's UI for working with database.
 ## Postgres
 Will be reachable and managable with pgAdmin
 > localhost:5432
