@@ -1,9 +1,7 @@
 ## Docker hub repository, and workflow with him in local machine
   I have an docker hub [repository](https://hub.docker.com/repositories/ako667), that contains all the neccessary images for **pulling** and **running** them and creating containers. In code i have configurations for every microservice that allows me to push my code like image to my docker hub:
   
-  `mvn clean package -P build-docker-image` - this is a command that package every service and create images from them and push them to my hub;
- 
-  then i can pull them through my docker and run them as containers:
+  `mvn clean package -P build-docker-image` - this is a command that package every service and create images from them and push them to my hub. Then i can pull them through my docker and run them as containers:
 
 `docker compose pull` - pull all the images that mentioned in docker-compose.yml file;
 
